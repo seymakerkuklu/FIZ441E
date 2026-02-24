@@ -1,132 +1,42 @@
-## 📊 Selected Problems in Computational Physics – Final Project  
-### Nonlinear Data Fitting using the Levenberg–Marquardt Method
+## 🧮 Selected Problems in Computational Physics
 
-This final project focuses on improving, analyzing, and optimizing a nonlinear fitting algorithm based on the **Levenberg–Marquardt technique**, which is widely used in physics, data science, and machine learning for parameter estimation in nonlinear models.
-
-The main goal of the project was to evaluate an existing nonlinear fitting code and enhance its performance, reliability, and usability through systematic debugging and optimization.
+This course focused on applying computational and numerical methods to solve physics problems using MATLAB. The repository includes homework assignments and a final project covering data fitting, numerical modeling, and nonlinear optimization techniques.
 
 ---
 
-## 🎯 Project Objectives
+### 📂 Homework Assignments
 
-The project includes:
+All homework files contain MATLAB-based solutions to numerical and computational physics problems:
 
-- Identifying **flaws and weaknesses** in the original nonlinear fitting implementation  
-- Detecting **unnecessary or redundant code segments**  
-- Reorganizing misplaced lines to improve algorithm stability  
-- Introducing additional features to enhance usability and visualization  
-- Improving input validation and error handling  
-- Increasing the numerical robustness and efficiency of the fitting procedure  
+- **HW1:** Linear and quadratic curve fitting using `polyfit` and matrix division methods.  
+- **HW2:** Linear fitting using LU decomposition and matrix factorization techniques.  
+- **HW3:** Generation and visualization of a 2D Gaussian distribution without using built-in meshgrid functions.  
+- **HW4:** Gaussian peak fitting with an inclined (slope) background model.
 
----
-
-## ⚙️ Methodology
-
-The algorithm is based on the **Marquardt–Levenberg optimization method**, which combines:
-- Gradient descent
-- Gauss–Newton method  
-
-This hybrid approach allows stable and efficient convergence when solving nonlinear least-squares problems.
-
-The implementation includes:
-- Numerical Jacobian estimation  
-- Adaptive step size control  
-- Regularization via damping parameter  
-- Iterative convergence monitoring  
-- Error and confidence interval estimation  
+Each homework demonstrates fundamental numerical techniques such as regression, matrix methods, and data visualization.
 
 ---
 
-## 🚀 Improvements and Enhancements
+### 📊 Final Project
 
-### 1️⃣ Rigorous Input Validation  
-A strong validation step was introduced to ensure consistency between input data:
-- Verification of matching dimensions for input vectors  
-- Prevention of runtime errors  
-- Improved numerical safety  
+The final project focuses on improving a nonlinear curve fitting algorithm based on the **Levenberg–Marquardt method**. The work includes identifying flaws, optimizing performance, improving numerical stability, and enhancing usability.
 
----
+Key contributions:
+- Input validation and error handling  
+- Code optimization and restructuring  
+- Confidence interval and uncertainty estimation  
+- Visualization of the fitting process  
+- Improved robustness and flexibility of the algorithm  
 
-### 2️⃣ Code Optimization and Streamlining  
-Several redundant or unnecessary operations were removed to:
-- Improve readability  
-- Reduce computational overhead  
-- Make the code more modular and maintainable  
-
-Optional parameters were reorganized using a structured approach.
+The implementation includes the main nonlinear fitting routine and supporting sub-functions for numerical derivatives and parameter uncertainty analysis.
 
 ---
 
-### 3️⃣ Improved Algorithm Stability  
-Reordering and restructuring parts of the iterative loop led to:
-- More stable convergence  
-- Better numerical behavior  
-- Improved error monitoring  
+### 🚀 Skills and Concepts
 
-This makes the code more suitable for real-world physics data fitting.
-
----
-
-### 4️⃣ Visualization of the Fitting Process  
-A new feature was introduced:
-- Real-time plotting of fitting progress  
-- Visualization of data vs. model during iterations  
-
-This helps users:
-- Monitor convergence  
-- Detect poor fits  
-- Understand algorithm behavior  
-
----
-
-### 5️⃣ Flexible Model Structure  
-A structured input option allows:
-- Passing additional model parameters  
-- Extending the algorithm to different nonlinear systems  
-
-This improves adaptability for physics and engineering applications.
-
----
-
-### 6️⃣ Enhanced Error Analysis  
-The implementation now includes:
-- Confidence interval estimation  
-- Improved residual and covariance calculations  
-- Robust numerical differentiation  
-
-This is essential for:
-- Scientific uncertainty analysis  
-- Experimental data interpretation  
-
----
-
-## 📁 File
-
-- `nlfit00_class1.m` → Main nonlinear fitting algorithm  
-- Includes derivative and confidence interval subroutines  
-
----
-
-## 🛠️ Tools and Concepts
-
-- MATLAB  
-- Numerical optimization  
-- Nonlinear regression  
-- Scientific data fitting  
-- Error propagation  
-- Confidence intervals  
-- Numerical derivatives  
-
----
-
-## 📌 Learning Outcomes
-
-Through this project, I gained practical experience in:
-
-- Nonlinear parameter estimation  
-- Scientific computing and numerical modeling  
-- Optimization algorithms  
-- Debugging and improving legacy scientific code  
-- Data fitting in experimental and theoretical physics  
-
-This work strengthened my understanding of computational physics and its applications in research and real-world data analysis.
+- Numerical methods in physics  
+- Nonlinear optimization  
+- Curve fitting and regression  
+- Scientific programming  
+- Data analysis and visualization  
+- MATLAB
